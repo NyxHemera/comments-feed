@@ -48,7 +48,7 @@ app.get('/getComments', function(request, response) {
   });
 });
 
-app.get('/deleteComments', function(request, response) {
+app.delete('/deleteComments', function(request, response) {
   comment.deleteComments().then(result => {
     response.send(result);
   });
