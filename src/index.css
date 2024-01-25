@@ -1,0 +1,10 @@
+:root {
+  font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

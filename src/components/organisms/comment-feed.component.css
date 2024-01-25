@@ -1,0 +1,8 @@
+.comment-feed {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 96vh;
+  overflow: scroll;
+  min-width: 30vw;
+}

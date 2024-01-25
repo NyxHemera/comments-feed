@@ -1,0 +1,7 @@
+.comment-submission {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 40vw;
+  align-items: center;
+  margin-bottom: 1rem;
+}

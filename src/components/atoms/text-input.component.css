@@ -1,0 +1,30 @@
+.text-input {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 20vw;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.text-input > label {
+  padding-bottom: 1rem;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.text-input > input {
+  width: 20vw;
+  height: 1.5rem;
+  font-size: 1.3rem;
+  border: rgb(36, 28, 21) 2px solid;
+  border-radius: .25rem;
+}
+
+.text-input > textarea {
+  width: 20vw;
+  height: 16vw;
+  font-size: 1.3rem;
+  border: rgb(36, 28, 21) 2px solid;
+  border-radius: .25rem;
+  resize: none;
+}
